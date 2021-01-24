@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_abouts",
+  "info": {
+    "name": "about",
+    "icon": "info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "heading": {
+      "type": "string",
+      "required": true,
+      "maxLength": 40
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
