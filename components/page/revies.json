@@ -1,23 +1,22 @@
 {
-  "collectionName": "components_page_abouts",
+  "collectionName": "components_page_revies",
   "info": {
-    "name": "about",
-    "icon": "info",
+    "name": "revies",
+    "icon": "chalkboard-teacher",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "name": {
       "type": "string",
-      "required": true,
-      "maxLength": 40
-    },
-    "description": {
-      "type": "richtext",
       "required": true
     },
-    "image": {
-      "collection": "file",
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "photo": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
